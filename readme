@@ -1,0 +1,19 @@
+###############File Description
+
+"Serum_TotalFractionalNitrogenLabeling.csv" contains total nitrogen fractional labeling for each metabolite from serum. 
+
+"Liver_TotalFractionalNitrogenLabeling.csv" contains total nitrogen fractional labeling for each metabolite from the Liver. 
+
+"BAT_TotalFractionalNitrogenLabeling.csv" contains total nitrogen fractional labeling for each metabolite from BAT. 
+
+
+###############R Script
+
+"DataShare_AUC_Liver_Bootstrapping_Script" R code calculates 95% confidence interval and fold average between area under the curve of liver vs serum fractional labeling utilizing bootstrapping with 10,000 simulations. 
+
+"DataShare_AUC_BAT_Bootstrapping_Script" R code calculates 95% confidence interval and Fold average between area under the curve of bat vs serum fractional labeling utilizing bootstrapping with 10,000 simulations. 
+
+###############Output File
+
+"Bootstrapped_Result_Liver.csv"
+"Bootstrapped_Result_BAT.csv"
